@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DC_Automation" time="261" tests="3" failures="0" errors="0">
+   <testsuite name="DC_Automation" tests="3" failures="0" errors="0" time="261" timestamp="2018-07-23 15:13:28" hostname="Hippolyte - DESKTOP-RJ551HV" id="Test Suites/DC_Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hippolyte\\dev\\QA\\tag\\tags_ui_scenari\\Reports\\DC_Automation\\20180723_151324"/>
+         <property name="logFiles" value="C:\\Users\\Hippolyte\\dev\\QA\\tag\\tags_ui_scenari\\Reports\\DC_Automation\\20180723_151324\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hippolyte - DESKTOP-RJ551HV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="c22a85e0bee9118e3d330eea029b5076"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/recorded_test" classname="Test Cases/recorded_test" status="PASSED">
+         <system-out><![CDATA[2018-07-23 15:13:28 - [TEST_CASE][PASSED] - Test Cases/recorded_test: Test Cases/recorded_test
+
+2018-07-23 15:13:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-23 15:13:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-23 15:13:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://tupeuxpastest.csq.io/' successfully
+
+2018-07-23 15:13:38 - [MESSAGE][PASSED] - Navigate to 'http://tupeuxpastest.csq.io/' successfully
+
+2018-07-23 15:13:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Page 1' is clicked on
+
+2018-07-23 15:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Page 1' is clicked on
+
+2018-07-23 15:13:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Page 2' is clicked on
+
+2018-07-23 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Page 2' is clicked on
+
+2018-07-23 15:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Page 3' is clicked on
+
+2018-07-23 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Page 3' is clicked on
+
+2018-07-23 15:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Page 4' is clicked on
+
+2018-07-23 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Page 4' is clicked on
+
+2018-07-23 15:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Ajax page' is clicked on
+
+2018-07-23 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Ajax page' is clicked on
+
+2018-07-23 15:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_UserAgent page' is clicked on
+
+2018-07-23 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_UserAgent page' is clicked on
+
+2018-07-23 15:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_Duplicate blocks page' is clicked on
+
+2018-07-23 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_Duplicate blocks page' is clicked on
+
+2018-07-23 15:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/a_iFrame' is clicked on
+
+2018-07-23 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/a_iFrame' is clicked on
+
+2018-07-23 15:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/div_logo' is clicked on
+
+2018-07-23 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/div_logo' is clicked on
+
+2018-07-23 15:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/tupeuxpastest/img' is clicked on
+
+2018-07-23 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tupeuxpastest/img' is clicked on
+
+2018-07-23 15:13:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-23 15:13:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/controlled_monkey" classname="Test Cases/controlled_monkey" status="PASSED">
+         <system-out><![CDATA[2018-07-23 15:13:41 - [TEST_CASE][PASSED] - Test Cases/controlled_monkey: Test Cases/controlled_monkey
+
+2018-07-23 15:13:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://tupeuxpastest.csq.io'
+
+2018-07-23 15:13:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://tupeuxpastest.csq.io'
+
+2018-07-23 15:13:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-23 15:13:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-23 15:13:50 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-07-23 15:13:50 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.xpath("//*")): null
+
+2018-07-23 15:13:50 - [TEST_STEP][PASSED] - Statement - obj = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-07-23 15:13:50 - [TEST_STEP][PASSED] - Statement - count = 0: null
+
+2018-07-23 15:13:50 - [TEST_STEP][PASSED] - Statement - filteredElements = elements.stream().filter({ java.lang.Object e -> ... }).collect(): null
+
+2018-07-23 15:13:51 - [TEST_STEP][PASSED] - Statement - 100.times({ -> ... }): Delayed 1 second(s)
+
+2018-07-23 15:13:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:13:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:14:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:15:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:16:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-23 15:17:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-23 15:17:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/monkey_click" classname="Test Cases/monkey_click" status="PASSED">
+         <system-out><![CDATA[2018-07-23 15:17:33 - [TEST_CASE][PASSED] - Test Cases/monkey_click: Test Cases/monkey_click
+
+2018-07-23 15:17:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://tupeuxpastest.csq.io/'
+
+2018-07-23 15:17:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://tupeuxpastest.csq.io/'
+
+2018-07-23 15:17:38 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'javascript:(function(){function callback(){gremlins.createHorde().gremlin(gremlins.species.clicker().clickTypes(["click"])).gremlin(gremlins.species.scroller()).gremlin(function(){window.$ = function() {};}).unleash()} var s=document.createElement("script");s.src="http://localhost/monkey";if(s.addEventListener){s.addEventListener("load",callback,false)}else if(s.readyState){s.onreadystatechange=callback}document.body.appendChild(s);})()' successfully
+
+2018-07-23 15:17:38 - [MESSAGE][PASSED] - Execute JavaScript 'javascript:(function(){function callback(){gremlins.createHorde().gremlin(gremlins.species.clicker().clickTypes(["click"])).gremlin(gremlins.species.scroller()).gremlin(function(){window.$ = function() {};}).unleash()} var s=document.createElement("script");s.src="http://localhost/monkey";if(s.addEventListener){s.addEventListener("load",callback,false)}else if(s.readyState){s.onreadystatechange=callback}document.body.appendChild(s);})()' successfully
+
+2018-07-23 15:17:38 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-23 15:17:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-23 15:17:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-23 15:17:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-23 15:13:28 - [TEST_SUITE][PASSED] - DC_Automation: Test Cases/monkey_click]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

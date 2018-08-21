@@ -15,18 +15,18 @@
       <guid>52c224a8-ff6e-4107-8f2b-5bc96d94ed73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/recorded_test</testCaseId>
+      <testCaseId>Test Cases/tupeuxpastest/recorded_test</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>14941564-a766-4095-8e78-6ec7ab420aa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/controlled_monkey</testCaseId>
+      <testCaseId>Test Cases/tupeuxpastest/controlled_monkey</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>622a006b-02df-458c-85b5-33a6d7277143</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/monkey_click</testCaseId>
+      <testCaseId>Test Cases/tupeuxpastest/monkey_click</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

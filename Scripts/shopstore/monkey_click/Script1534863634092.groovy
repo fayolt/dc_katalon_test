@@ -18,31 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://marksandspicy.com/')
 
-WebUI.navigateToUrl('http://tupeuxpastest.csq.io/')
+WebUI.executeJavaScript('javascript:(function(){function callback(){gremlins.createHorde().gremlin(gremlins.species.clicker().clickTypes(["click"])).gremlin(gremlins.species.scroller()).gremlin(function(){window.$ = function() {};}).unleash()} var s=document.createElement("script");s.src="http://localhost/monkey";if(s.addEventListener){s.addEventListener("load",callback,false)}else if(s.readyState){s.onreadystatechange=callback}document.body.appendChild(s);})()', null)
 
-WebUI.click(findTestObject('tupeuxpastest/a_Page 1'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_Page 2'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_Page 3'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_Page 4'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_Ajax page'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_UserAgent page'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_Duplicate blocks page'))
-
-WebUI.click(findTestObject('tupeuxpastest/a_iFrame'))
-
-WebUI.click(findTestObject('tupeuxpastest/div_logo'))
-
-WebUI.click(findTestObject('tupeuxpastest/img'))
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

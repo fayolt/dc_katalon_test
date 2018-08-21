@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Recorded_Test</name>
+   <name>Controlled_Monkey</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6d0cc8c9-9ed1-4685-84d6-f9d1c777f1e1</testSuiteGuid>
+   <testSuiteGuid>3aa500c3-c665-47c9-bef6-bb39769af2b4</testSuiteGuid>
    <testCaseLink>
-      <guid>3f3f1a9f-cb65-4c39-a504-bfb1a72ccc22</guid>
+      <guid>9ac7bcfd-c4cb-48ab-bcfa-d9b3cf4a334f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/recorded_test</testCaseId>
+      <testCaseId>Test Cases/tupeuxpastest/controlled_monkey</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

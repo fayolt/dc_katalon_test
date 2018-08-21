@@ -5,6 +5,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.junit.After
 import org.openqa.selenium.By
+import org.openqa.selenium.StaleElementReferenceException
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebElement
@@ -28,37 +29,52 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser("http://tupeuxpastest.csq.io");
+protected String getXPathFromElement(WebElement element) {
+	String elementDescription = element.toString();
+	println elementDescription
+	return elementDescription.substring(elementDescription.lastIndexOf("-> xpath: ") + 10, elementDescription.lastIndexOf("]"));
+}
+
+protected TestObject fromElement(WebElement element) {
+	TestObject testObject = new TestObject();
+	testObject.addProperty("xpath", ConditionType.EQUALS, getXPathFromElement(element));
+	return testObject;
+}
+
+// WebUI.openBrowser("http://tupeuxpastest.csq.io");
+WebUI.openBrowser("https://marksandspicy.com");
 
 WebUI.delay(2);
 
 WebDriver driver = DriverFactory.getWebDriver();
 List<WebElement>elements = driver.findElements(By.xpath("//*"));
 
-TestObject obj = new TestObject();
 int count = 0;
 
-List<WebElement> filteredElements = elements.stream().filter{e ->
-	e.getAttribute("id") != ""}.collect();  
+//List<WebElement> filteredElements = elements.stream().filter{e ->
+//	( e.getTagName() != "meta" || e.getTagName() != "script" || e.getAttribute("class") != "_blank")}.collect();  
 
-100.times {
-	Collections.shuffle filteredElements
-	WebElement e = filteredElements.first();
-	println(e.getAttribute("id"));
-	while (e.getAttribute("id").contains("8")) {
-		Collections.shuffle filteredElements
-		e = filteredElements.first();
-	}
-	e.click();
+10.times {
+	try {
+		Collections.shuffle elements
+		WebElement element = elements.first();
+		//while (e.getAttribute("id").contains("8")) {
+		while (!element.isDisplayed()) {
+			Collections.shuffle elements
+			element = elements.first();
+		}
+		if (element.getTagName().equals("a") && element.getAttribute("href").startsWith("http://www.prestashop.com/")) {
+			println element.toString();
+			//TestObject updatedObject = fromElement(element);
+			//println updatedObject.toString();
+			//WebUI.modifyObjectProperty(updatedObject, null, null, null, false)
+		}
+		element.click();
+		count ++;
+	 } catch(Exception ex){
+		println "Exception caught";
+		elements = driver.findElements(By.xpath("//*"));
+	 }
 	WebUI.delay(1)
 }
-
-/*for (e in filteredElements) {
-	println(e.getAttribute("id"));
-	e.click();
-	
-	println(generateXPATH(e, ""));
-	obj = WebUI.modifyObjectProperty(obj, 'xpath', 'equals', generateXPATH(e, ""), true);
-	WebUI.click(obj);
-}*/
 WebUI.closeBrowser();
